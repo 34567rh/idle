@@ -1,0 +1,47 @@
+{
+  "name": "The Idle Mines Recovery",
+  "servePort": 34873,
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "$path": "src/shared",
+      "Packages": {
+        "Signal": {
+          "$path": "vendor/Signal"
+        },
+        "Trove": {
+          "$path": "vendor/Trove"
+        },
+        "$className": "Folder"
+      },
+      "ReplicaClient": {
+        "$path": "vendor/Replica/src/ReplicatedStorage/ReplicaClient.luau"
+      },
+      "ReplicaShared": {
+        "$path": "vendor/Replica/src/ReplicatedStorage/ReplicaShared"
+      }
+    },
+    "ServerScriptService": {
+      "$path": "src/server",
+      "$ignoreUnknownInstances": true,
+      "ServerPackages": {
+        "ProfileStore": {
+          "$path": "vendor/ProfileStore"
+        },
+        "$className": "Folder"
+      },
+      "ReplicaServer": {
+        "$path": "vendor/Replica/src/ServerScriptService/ReplicaServer.luau"
+      }
+    },
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$path": "src/client",
+        "$ignoreUnknownInstances": true
+      }
+    }
+  }
+}

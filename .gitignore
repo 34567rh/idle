@@ -1,0 +1,8 @@
+build/
+inspection/
+globalTypes.d.luau
+sourcemap.json
+.DS_Store
+
+__pycache__/
+*.pyc
